@@ -1,4 +1,5 @@
 #Day 53
+
 # Выводит кольво строк, слов и символов
 def analyze_file(file_name):
     with open(file_name, encoding='utf-8') as file:
