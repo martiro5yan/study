@@ -1,5 +1,4 @@
 #Day 41
-
 # Перевод строки в словарь
 # Формат ввода " 1:test line:line ... "
 def translating_line_into_a_dictionary(line):
