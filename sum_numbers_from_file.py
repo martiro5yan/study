@@ -1,4 +1,4 @@
-#Day 47
+#Day 53
 #Сумма чисел в строках
 def sum_numbers_in_file(filename):
     with open(filename, encoding='utf-8') as file:
