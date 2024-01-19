@@ -1,3 +1,6 @@
+# Day 55 / File operations
+# На вход список названий файлов (lisntFile)
+# Вывод файл output.txt с содержимым всех полученых файлов
 def File_concatenation(listFile):
     output = []
     def Gluing(fileName):
