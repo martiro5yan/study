@@ -33,4 +33,4 @@ with ZipFile('workbook.zip', mode='r') as zFile:
                 favorites(info[i].date_time,info[i].filename)
                     
 r = sorted(result)
-print(*r,sep='\n')
+#print(*r,sep='\n')
