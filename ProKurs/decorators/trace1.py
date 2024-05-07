@@ -13,7 +13,7 @@ def trace(fun):
         dic = dict(kwargs)
         result = f"TRACE: вызов {fun.__name__}() с аргументами: {krtj}, {dic}\nTRACE: возвращаемое значение {fun.__name__}(): {v}"
         print(result)
-        return v
+        return fun(*args, **kwargs)
     return wrapper
 
 
